@@ -33,5 +33,10 @@ platform :ios do
         }
      }
    )
+  pgyer(
+    api_key: "1d99a53601304968af78f784ca747584",
+    password: "123456",
+    install_type: "2",
+   )
  end
 end
