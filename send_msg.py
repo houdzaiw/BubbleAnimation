@@ -1,4 +1,5 @@
-
+import sys
+sys.path.append('/Users/li/Library/Python/3.9/lib/python/site-packages')
 from dingtalkchatbot.chatbot import DingtalkChatbot, ActionCard, CardItem
 # WebHook地址
 webhook = 'https://oapi.dingtalk.com/robot/send?access_token=b70a6004b668a17952ef704f69a4fedec14ccd018999392b46d0edec3c9d8843'
